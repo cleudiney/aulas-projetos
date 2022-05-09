@@ -1,0 +1,99 @@
+:root{
+    --vermelho:#e50914;
+    --preto:#141414;
+    --cinza_Nav:#AAA;
+    --branco_Nav:#fff;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Elementos base*/
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    /* Apenas para ver o desenvolvimento */
+    color: var(--branco_Nav);
+    
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+
+
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+}
+header nav a{
+    text-decoration: none;
+    color: var(--cinza_Nav);
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color: var(--branco_Nav) ;
+
+}
+/* Relacionados ao filme principal */
+.filme-principal{
+font-size: 16px;
+background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capaprincipal.jpg');
+height: 400px;
+background-size:    cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:flex-start;
+}
+.filme-principal .titulo-principal{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+
+}
+.filme-principal .descricao-principal{
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+.botao-principal{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+    padding:15px 30px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: .3 ease all;
+
+
+}
+.botao-principal:hover{
+    background-color: white;
+    color: #141414;
+}
+.botao-principal i{
+margin-right: 8px;
+
+}
+.filme-principal .container{
+    width: 80%;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
