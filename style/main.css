@@ -78,12 +78,16 @@ align-items:flex-start;
     margin-right: 15px;
     cursor: pointer;
     transition: .3 ease all;
+    
+    border-radius: 30px;
 
 
 }
 .botao-principal:hover{
     background-color: white;
     color: #141414;
+    text-transform: uppercase;
+    transform: scale(1.05);
 }
 .botao-principal i{
 margin-right: 8px;
