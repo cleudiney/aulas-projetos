@@ -14,7 +14,7 @@
 /*Elementos base*/
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     /* Apenas para ver o desenvolvimento */
     color: var(--branco_Nav);
     
